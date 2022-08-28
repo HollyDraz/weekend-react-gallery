@@ -1,0 +1,8 @@
+Checklist:
+
+-[] add images to the public/images folder 
+-[] edit the data/js folder to have and id/title/description/path for
+-[] npm install 
+-[] server start 
+-[] client start 
+-[]

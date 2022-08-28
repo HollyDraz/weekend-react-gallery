@@ -4,11 +4,16 @@
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+Directly above this is how long it took you to develop the project. Your project description goes here. What problem did you solve? How did you solve it?
+
+To see the fully functional site, please visit: DEPLOYED VERSION OF APP
+
 
 ## Prerequisites
 [] Node.js
 [] Postico
+
+
 
 ## Installation
 [] Create a database named your TABLE NAME 
