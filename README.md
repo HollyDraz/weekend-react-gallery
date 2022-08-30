@@ -33,7 +33,8 @@ React
 MUI 
 
 ## Acknowledgement 
-Thanks to Prime Digital Academy and my instructor Chris Black who helped make my application come to life!
+Thanks to Prime Digital Academy and my instructor Chris Black who helped make my application come to life! And the Brennan Low who allowed me to use his amazing photos for this application! To see more of his work you may see his portfolio at SOURCE PROTFOLIO HERE
+
 
 
 
