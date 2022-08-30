@@ -1,6 +1,6 @@
 Checklist:
 
--[] add images to the public/images folder 
+-[x] add images to the public/images folder 
 -[] make sure to add source for images 
 -[] edit the data/js folder to have and id/title/description/path for
 -[] npm install 
