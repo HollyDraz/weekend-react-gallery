@@ -6,4 +6,5 @@ Checklist:
 -[x] npm install 
 -[x] server start 
 -[x] client start 
--[]
+-[] use axios to get data from the gallery.data to store it into app.jsx
+-[]in GalleryList pass the data from apps.jsx to gallerylist using props
