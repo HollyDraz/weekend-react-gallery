@@ -38,11 +38,15 @@ const fetchGalleryImages = () => {
         {
           galleryItems.map((galleryItems) =>{
             console.log(galleryItems);
-            return <li key={galleryItems.id} >
-              {galleryItems.description} likes: {galleryItems.likes}
+            return <li key={galleryItems.id}> 
+             {galleryItems.path} 
+             {galleryItems.description} <br/>
+             likes: {galleryItems.likes}
               </li>
+            
           })
         }
+
     </ul>
        
       </div>
