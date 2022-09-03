@@ -1,21 +1,11 @@
 import React from 'react';
 import './App.css';
 import axios from 'axios';
-import galleryItems from '../../../server/modules/gallery.data';
+//import galleryItems from '../../../server/modules/gallery.data';
 
 
 
 function App() {
-  const fetchGallery = () => {
-    axios.get('gallery')
-    .then((response) => {
-      galleryItems(response);
-    }).catch(function(error) {
-      console.log(error);
-      alert('something went wrong in fetch gallery!');
-    });
-  }
-
     return (
       <div className="App">
         <header className="App-header">
@@ -23,9 +13,7 @@ function App() {
         </header>
         <p>Gallery goes here</p>
         <br/>
-        <p>
-          testing  {galleryItems[1]}
-        </p>
+        
         <img src="images/ghosts.jpg"/>
         <br/>
         <img src="images/holly.JPG"/>
