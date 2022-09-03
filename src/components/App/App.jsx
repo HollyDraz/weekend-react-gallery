@@ -1,6 +1,4 @@
 import React from 'react';
-import {useState} from 'react';
-console.log(useState)
 import './App.css';
 import axios from 'axios';
 import galleryItems from '../../../server/modules/gallery.data';
@@ -8,8 +6,6 @@ import galleryItems from '../../../server/modules/gallery.data';
 
 
 function App() {
-
-  //get data 
   const fetchGallery = () => {
     axios.get('gallery')
     .then((response) => {
