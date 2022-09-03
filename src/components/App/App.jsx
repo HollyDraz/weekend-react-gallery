@@ -21,7 +21,7 @@ const fetchGalleryImages = () => {
     url: 'gallery'
   }).then(response =>{
     setGalleryItems(response.data);
-    console.log("get test", response.data );
+   //console.log("get test", response.data );
   }).catch(error =>{
     console.log(error);
     alert('something is wrong!')
@@ -34,11 +34,17 @@ const fetchGalleryImages = () => {
         </header>
         <p>Gallery goes here</p>
         <br/>
+        <ul>
         {
           galleryItems.map((galleryItems) =>{
             console.log(galleryItems);
+            return <li key={galleryItems.id} >
+              {galleryItems.description}
+              </li>
           })
         }
+    </ul>
+       
       </div>
     );
 
