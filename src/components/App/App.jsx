@@ -39,7 +39,7 @@ const fetchGalleryImages = () => {
           galleryItems.map((galleryItems) =>{
             console.log(galleryItems);
             return <li key={galleryItems.id}> 
-             {galleryItems.path} 
+            <img src={galleryItems.path} />
              {galleryItems.description} <br/>
              likes: {galleryItems.likes}
               </li>
