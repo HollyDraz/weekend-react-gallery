@@ -1,10 +1,25 @@
 import React from 'react';
+import {useState} from 'react';
+console.log(useState)
 import './App.css';
 import axios from 'axios';
+import galleryItems from '../../../server/modules/gallery.data';
 
-const galleryItems = [];
+
 
 function App() {
+
+  //get data 
+  const fetchGallery = () => {
+    axios.get('gallery')
+    .then((response) => {
+      galleryItems(response);
+    }).catch(function(error) {
+      console.log(error);
+      alert('something went wrong in fetch gallery!');
+    });
+  }
+
     return (
       <div className="App">
         <header className="App-header">
@@ -22,10 +37,11 @@ function App() {
         <img src="images/pup.jpeg"/>
         <br/>
         <img src="images/smilecoffee.jpg"/>
-
-
       </div>
     );
+
+
+
 }
 
 export default App;
