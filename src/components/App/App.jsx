@@ -34,13 +34,11 @@ const fetchGalleryImages = () => {
         </header>
         <p>Gallery goes here</p>
         <br/>
-        <img src="images/ghosts.jpg"/>
-        <br/>
-        <img src="images/holly.JPG"/>
-        <br/>
-        <img src="images/pup.jpeg"/>
-        <br/>
-        <img src="images/smilecoffee.jpg"/>
+        {
+          galleryItems.map((galleryItems) =>{
+            console.log(galleryItems);
+          })
+        }
       </div>
     );
 
