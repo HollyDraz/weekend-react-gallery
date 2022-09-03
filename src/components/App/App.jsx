@@ -1,5 +1,8 @@
 import React from 'react';
 import './App.css';
+import axios from 'axios';
+
+const galleryItems = [];
 
 function App() {
     return (
@@ -8,8 +11,10 @@ function App() {
           <h1 className="App-title">Gallery of My Life</h1>
         </header>
         <p>Gallery goes here</p>
-
         <br/>
+        <p>
+          testing  {galleryItems[1]}
+        </p>
         <img src="images/ghosts.jpg"/>
         <br/>
         <img src="images/holly.JPG"/>
@@ -17,6 +22,8 @@ function App() {
         <img src="images/pup.jpeg"/>
         <br/>
         <img src="images/smilecoffee.jpg"/>
+
+
       </div>
     );
 }
