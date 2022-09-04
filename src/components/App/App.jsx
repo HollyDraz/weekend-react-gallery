@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import axios from 'axios';
+import GalleryListComponent from '../GalleryList/GalleryList';
 //import { use } from '../../../server/routes/gallery.router';
 //import galleryItems from '../GalleryItem';
 
@@ -34,20 +35,7 @@ const fetchGalleryImages = () => {
         </header>
         <p>Gallery goes here</p>
         <br/>
-        <ul>
-        {
-          galleryItems.map((galleryItems) =>{
-            console.log(galleryItems);
-            return <li key={galleryItems.id}> 
-            <img src={galleryItems.path} />
-             {galleryItems.description} <br/>
-             likes: {galleryItems.likes}
-              </li>
-            
-          })
-        }
-
-    </ul>
+        <GalleryListComponent list={GalleryListComponent}/>
        
       </div>
     );
