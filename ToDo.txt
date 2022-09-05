@@ -6,8 +6,7 @@ Checklist:
 -[x] npm install 
 -[x] server start 
 -[x] client start 
--[x] use axios to get data from the gallery.data to store it into app.jsx
-
+-[x] use axios to get data from the gallery.data to store it into app.js
 -[x]in GalleryList pass the data from apps.jsx to gallerylist using props
 -[x]create new component galleryitems.jsx 
     -[]update gallerylist to this component to display images 

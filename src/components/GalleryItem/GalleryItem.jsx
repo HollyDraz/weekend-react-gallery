@@ -1,6 +1,10 @@
-function GalleryItemComponent (){
+function GalleryItemComponent ({galleryItems}){
     return(
-        <p>test !</p>
+        <li key={galleryItems.id}> 
+        <img src={galleryItems.path} />
+        Description: {galleryItems.description} 
+        likes: {galleryItems.likes}
+        </li>     
     )
 
 }

@@ -1,14 +1,13 @@
+import GalleryItemComponent from "../GalleryItem/GalleryItem";
 
 function GalleryListComponent ({galleryItems}) {
     return (
         <ul>
             {
-                galleryItems.map(galleryItems =>
-                 <li key={galleryItems.id}> 
-                    <img src={galleryItems.path} />
-                    Description: {galleryItems.description} 
-                    likes: {galleryItems.likes}
-                    </li>     
+                galleryItems.map(galleryItems => {
+                  return <GalleryItemComponent galleryItems={galleryItems}/>
+
+                }
              )
             }
      </ul>
