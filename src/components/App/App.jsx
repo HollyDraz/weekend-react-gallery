@@ -30,7 +30,7 @@ const fetchGalleryImages = () => {
   });
 }
   return (
-      <div className="App">
+      <div >
         <header className="App-header">
           <h1 className="App-title">Gallery of My Life</h1>
         </header>
