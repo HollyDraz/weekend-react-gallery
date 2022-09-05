@@ -1,3 +1,4 @@
+
 function GalleryListComponent ({galleryItems}) {
     return (
         <ul>
@@ -5,7 +6,7 @@ function GalleryListComponent ({galleryItems}) {
                 galleryItems.map(galleryItems =>
                  <li key={galleryItems.id}> 
                     <img src={galleryItems.path} />
-                    {galleryItems.description} 
+                    Description: {galleryItems.description} 
                     likes: {galleryItems.likes}
                     </li>     
              )

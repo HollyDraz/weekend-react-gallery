@@ -1,1 +1,7 @@
-<p>tsting testing</p>
+function GalleryItemComponent (){
+    return(
+        <p>test !</p>
+    )
+
+}
+export default GalleryItemComponent;
