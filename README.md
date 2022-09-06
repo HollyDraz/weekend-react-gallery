@@ -6,7 +6,7 @@
 
 Directly above this is how long it took you to develop the project. Your project description goes here. What problem did you solve? How did you solve it?
 
-To see the fully functional site, please visit: DEPLOYED VERSION OF APP
+To see the fully functional site, please visit: http://localhost:3000/
 
 
 ## Prerequisites
@@ -16,7 +16,6 @@ To see the fully functional site, please visit: DEPLOYED VERSION OF APP
 
 
 ## Installation
-[] Create a database named your TABLE NAME 
 [] Open up your editor of choice and run an npm install
 [] Run npm run server in your terminal
 [] Run npm run client in your terminal

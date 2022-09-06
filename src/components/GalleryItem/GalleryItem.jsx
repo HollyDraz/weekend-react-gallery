@@ -20,10 +20,10 @@ function GalleryItem ({galleryItems, likePhoto} ){
             )
         }
 
-        <li key={galleryItems.id}> 
+        <p key={galleryItems.id}> 
          <button onClick={() => likePhoto(galleryItems.id)}>Like {galleryItems.likes}</button> 
          likes: {galleryItems.likes}
-        </li>  
+        </p>  
         </div>   
         
     )

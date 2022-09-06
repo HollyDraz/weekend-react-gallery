@@ -3,7 +3,12 @@ import React, { useState, useEffect } from 'react';
 import './App.css';
 import axios from 'axios';
 import GalleryList from '../GalleryList/GalleryList';
-//import GalleryItem from '../GalleryItem/GalleryItem';
+import Container from '@mui/material/Container';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import Button from '@mui/material/Button';
+import Typography from '@mui/material/Typography';
 
 
 
@@ -56,9 +61,13 @@ const fetchGalleryImages = () => {
           <h1 className="App-title">Gallery of My Life</h1>
         </header>
         <br/>
-
-        <GalleryList galleryItems={galleryItems} likePhoto={likePhoto}/>
-
+        <Container maxWidth="sm">
+        <Card>
+          <CardContent>
+          <GalleryList galleryItems={galleryItems} likePhoto={likePhoto}/>
+          </CardContent>
+        </Card>
+        </Container>
       </div>
     );
 
