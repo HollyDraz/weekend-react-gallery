@@ -18,5 +18,5 @@ Checklist:
     Ideas:
         -[x] heart icon for like function 
         -[] have the layout be  a cascading theme 
-        -[] on description click have it be smoothe
+        -[] on description click have it be smoother
         
