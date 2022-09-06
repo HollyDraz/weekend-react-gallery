@@ -9,7 +9,9 @@ Checklist:
 -[x] use axios to get data from the gallery.data to store it into app.js
 -[x]in GalleryList pass the data from apps.jsx to gallerylist using props
 -[x]create new component galleryitems.jsx 
-    -[]update gallerylist to this component to display images 
-    -[]swap the image with a description on click 
-    -[] create a like button 
+    -[x]update gallerylist to this component to display images 
+    -[x]swap the image with a description on click 
+    -[x] create a like button 
     -[] when the like button is clicked update the gallery like numbers 
+
+-[] Style time 🫀

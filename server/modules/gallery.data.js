@@ -5,7 +5,7 @@ const galleryItems = [
     { id: 4, path: 'images/holly.jpg', description: 'Photo of me (holly) walking in a parking garage', likes: 0 },
    // { id: 5, path: 'images/house.jpg', description: 'Photo of the outside of a local house in minnesota', likes: 0 },
     { id: 6, path: 'images/pup.jpeg', description: 'One of my favorite albums', likes: 0 },
-    { id: 7, path: 'images/werehere.jpg', description: 'One of my favorite albums', likes: 0 }
+    { id: 7, path: 'images/werehere.jpg', description: 'One of my favorite albums', likes: 1 }
 
 ];
 

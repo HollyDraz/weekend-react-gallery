@@ -1,17 +1,18 @@
-import GalleryItemComponent from "../GalleryItem/GalleryItem";
+import { useState } from "react";
+import GalleryItem from "../GalleryItem/GalleryItem";
 
-function GalleryListComponent ({galleryItems}) {
+function GalleryList ({galleryItems, likePhoto}) {
     return (
         <ul>
             {
                 galleryItems.map(galleryItems => {
-                  return <GalleryItemComponent galleryItems={galleryItems}/>
+                  return <GalleryItem key={galleryItems.id} galleryItems={galleryItems} likePhoto={likePhoto}/>
 
                 }
              )
             }
      </ul>
-     );
+     )
 }
 
-export default GalleryListComponent;
+export default GalleryList;

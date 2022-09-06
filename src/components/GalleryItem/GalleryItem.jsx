@@ -1,9 +1,9 @@
-import {useState} from 'react'
+import {useState} from 'react';
 
 
-function GalleryItemComponent ({galleryItems}){
+function GalleryItem ({galleryItems, likePhoto} ){
     
-    const [toggle, setToggle] = useState(false);
+    const [toggle, setToggle] = useState(true);
     
 
    
@@ -21,11 +21,11 @@ function GalleryItemComponent ({galleryItems}){
         }
 
         <li key={galleryItems.id}> 
-        <p><button>Like me </button> likes: {galleryItems.likes}</p>
+         <button onClick={() => likePhoto(galleryItems.id)}>Like {galleryItems.likes}</button> 
         </li>  
         </div>   
         
     )
 
 }
-export default GalleryItemComponent;
+export default GalleryItem;
