@@ -12,7 +12,7 @@ Checklist:
     -[x]update gallerylist to this component to display images 
     -[x]swap the image with a description on click 
     -[x] create a like button 
-    -[] when the like button is clicked update the gallery like numbers 
+    -[x] when the like button is clicked update the gallery like numbers 
 
 -[] Style time 🫀
     Ideas:
