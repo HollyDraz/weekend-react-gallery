@@ -15,6 +15,7 @@ import Typography from '@mui/material/Typography';
 
 
 
+
 function App() {
 const [galleryItems, setGalleryItems] =useState([]);
 
@@ -58,15 +59,13 @@ const fetchGalleryImages = () => {
   return (
       <div>
         <header className="App-header">
-          <h1 className="App-title">Gallery of My Life</h1>
+          <h1 className="App-title">Glimpses of Ghosts</h1>
         </header>
         <br/>
         <Container maxWidth="sm">
-        <Card>
-          <CardContent>
+        
           <GalleryList galleryItems={galleryItems} likePhoto={likePhoto}/>
-          </CardContent>
-        </Card>
+        
         </Container>
       </div>
     );

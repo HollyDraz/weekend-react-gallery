@@ -1,4 +1,12 @@
 import {useState} from 'react';
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Grid from '@mui/material/Grid';
+import Stack from '@mui/material/Stack';
+import IconButton from '@mui/material/IconButton';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 
 function GalleryItem ({galleryItems, likePhoto} ){
@@ -8,8 +16,9 @@ function GalleryItem ({galleryItems, likePhoto} ){
 
    
     return(
-        <div>
-
+        <Grid container spacing={2}>
+        <Card style={{margin: 10}}>
+            <CardContent>
         {
              toggle ? (
                
@@ -21,10 +30,14 @@ function GalleryItem ({galleryItems, likePhoto} ){
         }
 
         <p key={galleryItems.id}> 
-         <button onClick={() => likePhoto(galleryItems.id)}>Like {galleryItems.likes}</button> 
-         likes: {galleryItems.likes}
+        <IconButton size=" extra small" variant="contained" onClick={() => likePhoto(galleryItems.id)}> 
+        <FavoriteBorderIcon/>
+        </IconButton>  
+        likes: {galleryItems.likes}
         </p>  
-        </div>   
+        </CardContent>
+        </Card> 
+        </Grid> 
         
     )
 

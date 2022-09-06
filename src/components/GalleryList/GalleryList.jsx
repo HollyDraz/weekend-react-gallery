@@ -12,6 +12,7 @@ function GalleryList ({galleryItems, likePhoto}) {
              )
             }
      </ul>
+    
      )
 }
 

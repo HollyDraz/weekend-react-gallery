@@ -14,9 +14,9 @@ Checklist:
     -[x] create a like button 
     -[x] when the like button is clicked update the gallery like numbers 
 
--[] Style time 🫀
+-[x] Style time 🫀
     Ideas:
-        -[] heart icon for like function 
+        -[x] heart icon for like function 
         -[] have the layout be  a cascading theme 
         -[] on description click have it be smoothe
         
