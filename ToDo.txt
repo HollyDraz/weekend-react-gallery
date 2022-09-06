@@ -15,3 +15,8 @@ Checklist:
     -[] when the like button is clicked update the gallery like numbers 
 
 -[] Style time 🫀
+    Ideas:
+        -[] heart icon for like function 
+        -[] have the layout be  a cascading theme 
+        -[] on description click have it be smoothe
+        

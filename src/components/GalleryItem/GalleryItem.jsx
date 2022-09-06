@@ -22,6 +22,7 @@ function GalleryItem ({galleryItems, likePhoto} ){
 
         <li key={galleryItems.id}> 
          <button onClick={() => likePhoto(galleryItems.id)}>Like {galleryItems.likes}</button> 
+         likes: {galleryItems.likes}
         </li>  
         </div>   
         
